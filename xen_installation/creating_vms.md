@@ -57,17 +57,40 @@ sudo xl create /etc/xen/studentN-x1.cfg -c
 
 * Login as root and input the password you set when creating the image.
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/15.png)
+
+<br/>
+
+
 adduser student
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/16.png)
+
+<br/>
+
 
 sudo nano -w /etc/sudoers
 
-Create studentN-x2 in the same way.
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/17.png)
 
-Add user “student” as well.
+<br/>
 
-Edit /etc/sudoers to grant privilege to “student” as well.
 
-Finally you should have this:
+
+* Create studentN-x2 in the same way.
+
+* Add user “student” as well.
+
+* Edit /etc/sudoers to grant privilege to “student” as well.
+
+* Finally you should have this:
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/18.png)
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/19.png)
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/20.png)
+
 
 
 
