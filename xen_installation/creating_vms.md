@@ -40,9 +40,7 @@ sudo xen-create-image --hostname=studentN-x1 --mac=macAddress
 * Please refer to Virtual Machine Mac Address Configuration Form
 
 
-* Note:
-The installing progress will take a little long time.
-While the installing progress, you need to enter the root password
+* The installing progress will take a little long time. While the installing progress, you need to enter the root password
 
 <br/>
 <br/>
@@ -82,6 +80,9 @@ sudo nano -w /etc/sudoers
 * Add user “student” as well.
 
 * Edit /etc/sudoers to grant privilege to “student” as well.
+
+<br/>
+
 
 * Finally you should have this:
 
