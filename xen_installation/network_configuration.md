@@ -4,13 +4,25 @@ Next we need to setup our system so that we can attach virtual machines to the e
 
 ### Network bridge
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/5.png)
+<br/>
+<br/>
 
 
 ### Network bridge in our project
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/6.png)
+
+<br/>
+
 sudo apt-get install bridge-utils
 
 sudo nano -w /etc/network/interfaces
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/7.png)
+
+<br/>
+
 
 sudo reboot
 
@@ -18,5 +30,16 @@ ssh student@studentN
 
 ifconfig
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/8.png)
+
+<br/>
+
+
 brctl show
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/9.png)
+
+<br/>
+
+
 
