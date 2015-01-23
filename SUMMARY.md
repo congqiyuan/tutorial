@@ -19,7 +19,7 @@
    * [Reference](mpich_cluster/reference.md)
 * [Hadoop Cluster](hadoop_cluster/README.md)
    * [Introduction](hadoop_cluster/introduction.md)
-   * [Installation](hadoop_cluster/installation)
+   * [Installation](hadoop_cluster/installation.md)
    * [Testing](hadoop_cluster/testing)
    * [Reference](hadoop_cluster/reference)
 
