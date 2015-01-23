@@ -37,10 +37,10 @@ sudo ln –s /usr/lib/xen-4.4 /usr/lib/xen
 
 sudo xen-create-image --hostname=studentN-x1 --mac=macAddress
 
-* Please refer to [Virtual Machine Mac Address List]()
+* Please refer to [Virtual Machine Mac Address List](https://raw.githubusercontent.com/congqiyuan/tutorial/master/virtual%20machine%20mac%20address.txt)
 
 
-* The installing progress will take a little long time. While the installing progress, you need to enter the root password
+* The installing progress will take a little long time. While the installing progress, you need to **enter the root password**
 
 <br/>
 <br/>
@@ -53,7 +53,7 @@ sudo xl create /etc/xen/studentN-x1.cfg -c
 
 * The -c flag above instructs Xen to attach a console to the guest system so that we see output as the system boots.
 
-* Login as root and input the password you set when creating the image.
+* Login as **root** and input the password you set when creating the image.
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/15.png)
 
