@@ -1,0 +1,901 @@
+host student1 {
+	hardware ethernet 00:23:ae:9b:db:82;
+	fixed-address 10.42.0.21;
+}
+host student1-x1 {
+	hardware ethernet 00:23:ae:9b:d1:16;
+	fixed-address 10.42.0.22;
+}
+host student1-x2 {
+	hardware ethernet 00:23:ae:9b:d1:17;
+	fixed-address 10.42.0.23;
+}
+host student2 {
+	hardware ethernet 00:23:ae:9c:03:36;
+	fixed-address 10.42.0.24;
+}
+host student2-x1 {
+	hardware ethernet 00:23:ae:9b:d1:19;
+	fixed-address 10.42.0.25;
+}
+host student2-x2 {
+	hardware ethernet 00:23:ae:9b:d1:1A;
+	fixed-address 10.42.0.26;
+}
+host student3 {
+	hardware ethernet 00:23:ae:9b:dc:1e;
+	fixed-address 10.42.0.27;
+}
+host student3-x1 {
+	hardware ethernet 00:23:ae:9b:d1:1C;
+	fixed-address 10.42.0.28;
+}
+host student3-x2 {
+	hardware ethernet 00:23:ae:9b:d1:1D;
+	fixed-address 10.42.0.29;
+}
+host student4 {
+	hardware ethernet 00:23:ae:9b:d7:8f;
+	fixed-address 10.42.0.30;
+}
+host student4-x1 {
+	hardware ethernet 00:23:ae:9b:d1:1F;
+	fixed-address 10.42.0.31;
+}
+host student4-x2 {
+	hardware ethernet 00:23:ae:9b:d1:20;
+	fixed-address 10.42.0.32;
+}
+host student5 {
+	hardware ethernet 00:23:ae:9b:48:ac;
+	fixed-address 10.42.0.33;
+}
+host student5-x1 {
+	hardware ethernet 00:23:ae:9b:d1:22;
+	fixed-address 10.42.0.34;
+}
+host student5-x2 {
+	hardware ethernet 00:23:ae:9b:d1:23;
+	fixed-address 10.42.0.35;
+}
+host student6 {
+	hardware ethernet 00:1a:a0:a6:e3:24;
+	fixed-address 10.42.0.36;
+}
+host student6-x1 {
+	hardware ethernet 00:23:ae:9b:d1:25;
+	fixed-address 10.42.0.37;
+}
+host student6-x2 {
+	hardware ethernet 00:23:ae:9b:d1:26;
+	fixed-address 10.42.0.38;
+}
+host student7 {
+	hardware ethernet 00:1a:a0:a6:f0:3b;
+	fixed-address 10.42.0.39;
+}
+host student7-x1 {
+	hardware ethernet 00:23:ae:9b:d1:28;
+	fixed-address 10.42.0.40;
+}
+host student7-x2 {
+	hardware ethernet 00:23:ae:9b:d1:29;
+	fixed-address 10.42.0.41;
+}
+host student8 {
+	hardware ethernet 00:1a:a0:a6:f1:d3;
+	fixed-address 10.42.0.42;
+}
+host student8-x1 {
+	hardware ethernet 00:23:ae:9b:d1:2B;
+	fixed-address 10.42.0.43;
+}
+host student8-x2 {
+	hardware ethernet 00:23:ae:9b:d1:2C;
+	fixed-address 10.42.0.44;
+}
+host student9 {
+	hardware ethernet 00:1a:a0:af:04:b2;
+	fixed-address 10.42.0.45;
+}
+host student9-x1 {
+	hardware ethernet 00:23:ae:9b:d1:2E;
+	fixed-address 10.42.0.46;
+}
+host student9-x2 {
+	hardware ethernet 00:23:ae:9b:d1:2F;
+	fixed-address 10.42.0.47;
+}
+host student10 {
+	hardware ethernet 00:1a:a0:ae:82:41;
+	fixed-address 10.42.0.48;
+}
+host student10-x1 {
+	hardware ethernet 00:23:ae:9b:d1:31;
+	fixed-address 10.42.0.49;
+}
+host student10-x2 {
+	hardware ethernet 00:23:ae:9b:d1:32;
+	fixed-address 10.42.0.50;
+}
+host student11 {
+	hardware ethernet 00:1a:a0:ae:82:91;
+	fixed-address 10.42.0.51;
+}
+host student11-x1 {
+	hardware ethernet 00:23:ae:9b:d1:34;
+	fixed-address 10.42.0.52;
+}
+host student11-x2 {
+	hardware ethernet 00:23:ae:9b:d1:35;
+	fixed-address 10.42.0.53;
+}
+host student12 {
+	hardware ethernet 00:1a:a0:a6:ec:b4;
+	fixed-address 10.42.0.54;
+}
+host student12-x1 {
+	hardware ethernet 00:23:ae:9b:d1:37;
+	fixed-address 10.42.0.55;
+}
+host student12-x2 {
+	hardware ethernet 00:23:ae:9b:d1:38;
+	fixed-address 10.42.0.56;
+}
+host student13 {
+	hardware ethernet 00:23:ae:9b:d1:48;
+	fixed-address 10.42.0.57;
+}
+host student13-x1 {
+	hardware ethernet 00:23:ae:9b:d1:3A;
+	fixed-address 10.42.0.58;
+}
+host student13-x2 {
+	hardware ethernet 00:23:ae:9b:d1:3B;
+	fixed-address 10.42.0.59;
+}
+host student14 {
+	hardware ethernet 00:23:ae:9b:d1:90;
+	fixed-address 10.42.0.60;
+}
+host student14-x1 {
+	hardware ethernet 00:23:ae:9b:d1:3D;
+	fixed-address 10.42.0.61;
+}
+host student14-x2 {
+	hardware ethernet 00:23:ae:9b:d1:3E;
+	fixed-address 10.42.0.62;
+}
+host student15 {
+	hardware ethernet 00:23:ae:9c:03:89;
+	fixed-address 10.42.0.63;
+}
+host student15-x1 {
+	hardware ethernet 00:23:ae:9b:d1:40;
+	fixed-address 10.42.0.64;
+}
+host student15-x2 {
+	hardware ethernet 00:23:ae:9b:d1:41;
+	fixed-address 10.42.0.65;
+}
+host student16 {
+	hardware ethernet 00:23:ae:9c:03:b1;
+	fixed-address 10.42.0.66;
+}
+host student16-x1 {
+	hardware ethernet 00:23:ae:9b:d1:43;
+	fixed-address 10.42.0.67;
+}
+host student16-x2 {
+	hardware ethernet 00:23:ae:9b:d1:44;
+	fixed-address 10.42.0.68;
+}
+host student17 {
+	hardware ethernet 00:23:ae:9c:02:5e;
+	fixed-address 10.42.0.69;
+}
+host student17-x1 {
+	hardware ethernet 00:23:ae:9b:d1:46;
+	fixed-address 10.42.0.70;
+}
+host student17-x2 {
+	hardware ethernet 00:23:ae:9b:d1:47;
+	fixed-address 10.42.0.71;
+}
+host student18 {
+	hardware ethernet 00:23:ae:9b:d0:a2;
+	fixed-address 10.42.0.72;
+}
+host student18-x1 {
+	hardware ethernet 00:23:ae:9b:d1:49;
+	fixed-address 10.42.0.73;
+}
+host student18-x2 {
+	hardware ethernet 00:23:ae:9b:d1:4A;
+	fixed-address 10.42.0.74;
+}
+#host student19 {
+#	hardware ethernet 00:23:ae:9b:d1:4B;
+#	fixed-address 10.42.0.75;
+#}
+host student19-x1 {
+	hardware ethernet 00:23:ae:9b:d1:4C;
+	fixed-address 10.42.0.76;
+}
+host student19-x2 {
+	hardware ethernet 00:23:ae:9b:d1:4D;
+	fixed-address 10.42.0.77;
+}
+host student20 {
+	hardware ethernet 00:1d:92:97:5a:7a;
+	fixed-address 10.42.0.78;
+}
+host student20-x1 {
+	hardware ethernet 00:23:ae:9b:d1:4F;
+	fixed-address 10.42.0.79;
+}
+host student20-x2 {
+	hardware ethernet 00:23:ae:9b:d1:50;
+	fixed-address 10.42.0.80;
+}
+host student21 {
+	hardware ethernet 00:1d:92:97:3f:ee;
+	fixed-address 10.42.0.81;
+}
+host student21-x1 {
+	hardware ethernet 00:23:ae:9b:d1:52;
+	fixed-address 10.42.0.82;
+}
+host student21-x2 {
+	hardware ethernet 00:23:ae:9b:d1:53;
+	fixed-address 10.42.0.83;
+}
+host student22 {
+	hardware ethernet 00:1d:92:97:5a:8f;
+	fixed-address 10.42.0.84;
+}
+host student22-x1 {
+	hardware ethernet 00:23:ae:9b:d1:55;
+	fixed-address 10.42.0.85;
+}
+host student22-x2 {
+	hardware ethernet 00:23:ae:9b:d1:56;
+	fixed-address 10.42.0.86;
+}
+host student23 {
+	hardware ethernet 00:1d:92:97:56:a7;
+	fixed-address 10.42.0.87;
+}
+host student23-x1 {
+	hardware ethernet 00:23:ae:9b:d1:58;
+	fixed-address 10.42.0.88;
+}
+host student23-x2 {
+	hardware ethernet 00:23:ae:9b:d1:59;
+	fixed-address 10.42.0.89;
+}
+host student24 {
+	hardware ethernet 00:1d:92:97:45:9a;
+	fixed-address 10.42.0.90;
+}
+host student24-x1 {
+	hardware ethernet 00:23:ae:9b:d1:5B;
+	fixed-address 10.42.0.91;
+}
+host student24-x2 {
+	hardware ethernet 00:23:ae:9b:d1:5C;
+	fixed-address 10.42.0.92;
+}
+host student25 {
+	hardware ethernet 00:1d:92:97:5a:b7;
+	fixed-address 10.42.0.93;
+}
+host student25-x1 {
+	hardware ethernet 00:23:ae:9b:d1:5E;
+	fixed-address 10.42.0.94;
+}
+host student25-x2 {
+	hardware ethernet 00:23:ae:9b:d1:5F;
+	fixed-address 10.42.0.95;
+}
+host student26 {
+	hardware ethernet 00:1d:92:97:57:ba;
+	fixed-address 10.42.0.96;
+}
+host student26-x1 {
+	hardware ethernet 00:23:ae:9b:d1:61;
+	fixed-address 10.42.0.97;
+}
+host student26-x2 {
+	hardware ethernet 00:23:ae:9b:d1:62;
+	fixed-address 10.42.0.98;
+}
+host student27 {
+	hardware ethernet 00:1d:92:97:57:96;
+	fixed-address 10.42.0.99;
+}
+host student27-x1 {
+	hardware ethernet 00:23:ae:9b:d1:64;
+	fixed-address 10.42.0.100;
+}
+host student27-x2 {
+	hardware ethernet 00:23:ae:9b:d1:65;
+	fixed-address 10.42.0.101;
+}
+host student28 {
+	hardware ethernet 00:1d:92:97:57:54;
+	fixed-address 10.42.0.102;
+}
+host student28-x1 {
+	hardware ethernet 00:23:ae:9b:d1:67;
+	fixed-address 10.42.0.103;
+}
+host student28-x2 {
+	hardware ethernet 00:23:ae:9b:d1:68;
+	fixed-address 10.42.0.104;
+}
+host student29 {
+	hardware ethernet 00:1d:92:97:5a:e7;
+	fixed-address 10.42.0.105;
+}
+host student29-x1 {
+	hardware ethernet 00:23:ae:9b:d1:6A;
+	fixed-address 10.42.0.106;
+}
+host student29-x2 {
+	hardware ethernet 00:23:ae:9b:d1:6B;
+	fixed-address 10.42.0.107;
+}
+host student30 {
+	hardware ethernet 00:1d:92:97:5b:11;
+	fixed-address 10.42.0.108;
+}
+host student30-x1 {
+	hardware ethernet 00:23:ae:9b:d1:6D;
+	fixed-address 10.42.0.109;
+}
+host student30-x2 {
+	hardware ethernet 00:23:ae:9b:d1:6E;
+	fixed-address 10.42.0.110;
+}
+host student31 {
+	hardware ethernet 00:1d:92:97:44:F3;
+	fixed-address 10.42.0.111;
+}
+host student31-x1 {
+	hardware ethernet 00:23:ae:9b:d1:70;
+	fixed-address 10.42.0.112;
+}
+host student31-x2 {
+	hardware ethernet 00:23:ae:9b:d1:71;
+	fixed-address 10.42.0.113;
+}
+host student32 {
+	hardware ethernet 00:1d:92:97:57:5e;
+	fixed-address 10.42.0.114;
+}
+host student32-x1 {
+	hardware ethernet 00:23:ae:9b:d1:73;
+	fixed-address 10.42.0.115;
+}
+host student32-x2 {
+	hardware ethernet 00:23:ae:9b:d1:74;
+	fixed-address 10.42.0.116;
+}
+host student33 {
+	hardware ethernet 00:1d:92:97:56:18;
+	fixed-address 10.42.0.117;
+}
+host student33-x1 {
+	hardware ethernet 00:23:ae:9b:d1:76;
+	fixed-address 10.42.0.118;
+}
+host student33-x2 {
+	hardware ethernet 00:23:ae:9b:d1:77;
+	fixed-address 10.42.0.119;
+}
+host student34 {
+	hardware ethernet 00:1d:92:97:54:2f;
+	fixed-address 10.42.0.120;
+}
+host student34-x1 {
+	hardware ethernet 00:23:ae:9b:d1:79;
+	fixed-address 10.42.0.121;
+}
+host student34-x2 {
+	hardware ethernet 00:23:ae:9b:d1:7A;
+	fixed-address 10.42.0.122;
+}
+host student35 {
+	hardware ethernet 00:1d:92:97:3f:ed;
+	fixed-address 10.42.0.123;
+}
+host student35-x1 {
+	hardware ethernet 00:23:ae:9b:d1:7C;
+	fixed-address 10.42.0.124;
+}
+host student35-x2 {
+	hardware ethernet 00:23:ae:9b:d1:7D;
+	fixed-address 10.42.0.125;
+}
+host student36 {
+	hardware ethernet 00:1d:92:97:53:2a;
+	fixed-address 10.42.0.126;
+}
+host student36-x1 {
+	hardware ethernet 00:23:ae:9b:d1:7F;
+	fixed-address 10.42.0.127;
+}
+host student36-x2 {
+	hardware ethernet 00:23:ae:9b:d1:80;
+	fixed-address 10.42.0.128;
+}
+host student37 {
+	hardware ethernet 00:1d:92:97:45:96;
+	fixed-address 10.42.0.129;
+}
+host student37-x1 {
+	hardware ethernet 00:23:ae:9b:d1:82;
+	fixed-address 10.42.0.130;
+}
+host student37-x2 {
+	hardware ethernet 00:23:ae:9b:d1:83;
+	fixed-address 10.42.0.131;
+}
+host student38 {
+	hardware ethernet 00:1d:92:97:5a:b2;
+	fixed-address 10.42.0.132;
+}
+host student38-x1 {
+	hardware ethernet 00:23:ae:9b:d1:85;
+	fixed-address 10.42.0.133;
+}
+host student38-x2 {
+	hardware ethernet 00:23:ae:9b:d1:86;
+	fixed-address 10.42.0.134;
+}
+host student39 {
+	hardware ethernet 00:1d:92:97:45:89;
+	fixed-address 10.42.0.135;
+}
+host student39-x1 {
+	hardware ethernet 00:23:ae:9b:d1:88;
+	fixed-address 10.42.0.136;
+}
+host student39-x2 {
+	hardware ethernet 00:23:ae:9b:d1:89;
+	fixed-address 10.42.0.137;
+}
+host student40 {
+	hardware ethernet 00:1d:92:97:57:50;
+	fixed-address 10.42.0.138;
+}
+host student40-x1 {
+	hardware ethernet 00:23:ae:9b:d1:8B;
+	fixed-address 10.42.0.139;
+}
+host student40-x2 {
+	hardware ethernet 00:23:ae:9b:d1:8C;
+	fixed-address 10.42.0.140;
+}
+host student41 {
+	hardware ethernet 00:1d:92:97:5a:b4;
+	fixed-address 10.42.0.141;
+}
+host student41-x1 {
+	hardware ethernet 00:23:ae:9b:d1:8E;
+	fixed-address 10.42.0.142;
+}
+host student41-x2 {
+	hardware ethernet 00:23:ae:9b:d1:8F;
+	fixed-address 10.42.0.143;
+}
+#host student42 {
+#	hardware ethernet 00:23:ae:9b:d1:90;
+#	fixed-address 10.42.0.144;
+#}
+host student42-x1 {
+	hardware ethernet 00:23:ae:9b:d1:91;
+	fixed-address 10.42.0.145;
+}
+host student42-x2 {
+	hardware ethernet 00:23:ae:9b:d1:92;
+	fixed-address 10.42.0.146;
+}
+host student43 {
+	hardware ethernet 00:1a:a0:ae:df:e1;
+	fixed-address 10.42.0.147;
+}
+host student43-x1 {
+	hardware ethernet 00:23:ae:9b:d1:94;
+	fixed-address 10.42.0.148;
+}
+host student43-x2 {
+	hardware ethernet 00:23:ae:9b:d1:95;
+	fixed-address 10.42.0.149;
+}
+host student44 {
+	hardware ethernet 00:1a:a0:ae:e3:c0;
+	fixed-address 10.42.0.150;
+}
+host student44-x1 {
+	hardware ethernet 00:23:ae:9b:d1:97;
+	fixed-address 10.42.0.151;
+}
+host student44-x2 {
+	hardware ethernet 00:23:ae:9b:d1:98;
+	fixed-address 10.42.0.152;
+}
+host student45 {
+	hardware ethernet 00:1a:a0:ae:e5:e1;
+	fixed-address 10.42.0.153;
+}
+host student45-x1 {
+	hardware ethernet 00:23:ae:9b:d1:9A;
+	fixed-address 10.42.0.154;
+}
+host student45-x2 {
+	hardware ethernet 00:23:ae:9b:d1:9B;
+	fixed-address 10.42.0.155;
+}
+host student46 {
+	hardware ethernet 00:1a:a0:a6:ee:77;
+	fixed-address 10.42.0.156;
+}
+host student46-x1 {
+	hardware ethernet 00:23:ae:9b:d1:9D;
+	fixed-address 10.42.0.157;
+}
+host student46-x2 {
+	hardware ethernet 00:23:ae:9b:d1:9E;
+	fixed-address 10.42.0.158;
+}
+#host student47 {
+#	hardware ethernet 00:23:ae:9b:d1:9F;
+#	fixed-address 10.42.0.159;
+#}
+host student47-x1 {
+	hardware ethernet 00:23:ae:9b:d1:A0;
+	fixed-address 10.42.0.160;
+}
+host student47-x2 {
+	hardware ethernet 00:23:ae:9b:d1:A1;
+	fixed-address 10.42.0.161;
+}
+host student48 {
+	hardware ethernet 00:1a:a0:ae:df:6f;
+	fixed-address 10.42.0.162;
+}
+host student48-x1 {
+	hardware ethernet 00:23:ae:9b:d1:A3;
+	fixed-address 10.42.0.163;
+}
+host student48-x2 {
+	hardware ethernet 00:23:ae:9b:d1:A4;
+	fixed-address 10.42.0.164;
+}
+host student49 {
+	hardware ethernet 00:1a:a0:ae:e0:bf;
+	fixed-address 10.42.0.165;
+}
+host student49-x1 {
+	hardware ethernet 00:23:ae:9b:d1:A6;
+	fixed-address 10.42.0.166;
+}
+host student49-x2 {
+	hardware ethernet 00:23:ae:9b:d1:A7;
+	fixed-address 10.42.0.167;
+}
+host student50 {
+	hardware ethernet 00:1a:a0:ae:7f:f9;
+	fixed-address 10.42.0.168;
+}
+host student50-x1 {
+	hardware ethernet 00:23:ae:9b:d1:A9;
+	fixed-address 10.42.0.169;
+}
+host student50-x2 {
+	hardware ethernet 00:23:ae:9b:d1:AA;
+	fixed-address 10.42.0.170;
+}
+host student51 {
+	hardware ethernet 00:1d:92:97:3f:f1;
+	fixed-address 10.42.0.171;
+}
+host student51-x1 {
+	hardware ethernet 00:23:ae:9b:d1:AC;
+	fixed-address 10.42.0.172;
+}
+host student51-x2 {
+	hardware ethernet 00:23:ae:9b:d1:AD;
+	fixed-address 10.42.0.173;
+}
+host student52 {
+	hardware ethernet 00:1d:92:97:44:fe;
+	fixed-address 10.42.0.174;
+}
+host student52-x1 {
+	hardware ethernet 00:23:ae:9b:d1:AF;
+	fixed-address 10.42.0.175;
+}
+host student52-x2 {
+	hardware ethernet 00:23:ae:9b:d1:B0;
+	fixed-address 10.42.0.176;
+}
+host student53 {
+	hardware ethernet 00:1d:92:97:5a:d4;
+	fixed-address 10.42.0.177;
+}
+host student53-x1 {
+	hardware ethernet 00:23:ae:9b:d1:B2;
+	fixed-address 10.42.0.178;
+}
+host student53-x2 {
+	hardware ethernet 00:23:ae:9b:d1:B3;
+	fixed-address 10.42.0.179;
+}
+host student54 {
+	hardware ethernet 00:1d:92:97:57:94;
+	fixed-address 10.42.0.180;
+}
+host student54-x1 {
+	hardware ethernet 00:23:ae:9b:d1:B5;
+	fixed-address 10.42.0.181;
+}
+host student54-x2 {
+	hardware ethernet 00:23:ae:9b:d1:B6;
+	fixed-address 10.42.0.182;
+}
+host student55 {
+	hardware ethernet 00:1d:92:97:45:76;
+	fixed-address 10.42.0.183;
+}
+host student55-x1 {
+	hardware ethernet 00:23:ae:9b:d1:B8;
+	fixed-address 10.42.0.184;
+}
+host student55-x2 {
+	hardware ethernet 00:23:ae:9b:d1:B9;
+	fixed-address 10.42.0.185;
+}
+host student56 {
+	hardware ethernet 00:1d:92:97:5b:15;
+	fixed-address 10.42.0.186;
+}
+host student56-x1 {
+	hardware ethernet 00:23:ae:9b:d1:BB;
+	fixed-address 10.42.0.187;
+}
+host student56-x2 {
+	hardware ethernet 00:23:ae:9b:d1:BC;
+	fixed-address 10.42.0.188;
+}
+host student57 {
+	hardware ethernet 00:1d:92:97:57:92;
+	fixed-address 10.42.0.189;
+}
+host student57-x1 {
+	hardware ethernet 00:23:ae:9b:d1:BE;
+	fixed-address 10.42.0.190;
+}
+host student57-x2 {
+	hardware ethernet 00:23:ae:9b:d1:BF;
+	fixed-address 10.42.0.191;
+}
+host student58 {
+	hardware ethernet 00:1d:92:97:56:6d;
+	fixed-address 10.42.0.192;
+}
+host student58-x1 {
+	hardware ethernet 00:23:ae:9b:d1:C1;
+	fixed-address 10.42.0.193;
+}
+host student58-x2 {
+	hardware ethernet 00:23:ae:9b:d1:C2;
+	fixed-address 10.42.0.194;
+}
+host student59 {
+	hardware ethernet 00:1d:92:97:56:de;
+	fixed-address 10.42.0.195;
+}
+host student59-x1 {
+	hardware ethernet 00:23:ae:9b:d1:C4;
+	fixed-address 10.42.0.196;
+}
+host student59-x2 {
+	hardware ethernet 00:23:ae:9b:d1:C5;
+	fixed-address 10.42.0.197;
+}
+host student60 {
+	hardware ethernet 00:1d:92:97:5a:7c;
+	fixed-address 10.42.0.198;
+}
+host student60-x1 {
+	hardware ethernet 00:23:ae:9b:d1:C7;
+	fixed-address 10.42.0.199;
+}
+host student60-x2 {
+	hardware ethernet 00:23:ae:9b:d1:C8;
+	fixed-address 10.42.0.200;
+}
+host student61 {
+	hardware ethernet 00:1d:92:97:57:be;
+	fixed-address 10.42.0.201;
+}
+host student61-x1 {
+	hardware ethernet 00:23:ae:9b:d1:CA;
+	fixed-address 10.42.0.202;
+}
+host student61-x2 {
+	hardware ethernet 00:23:ae:9b:d1:CB;
+	fixed-address 10.42.0.203;
+}
+host student62 {
+	hardware ethernet 00:1d:92:97:57:8a;
+	fixed-address 10.42.0.204;
+}
+host student62-x1 {
+	hardware ethernet 00:23:ae:9b:d1:CD;
+	fixed-address 10.42.0.205;
+}
+host student62-x2 {
+	hardware ethernet 00:23:ae:9b:d1:CE;
+	fixed-address 10.42.0.206;
+}
+host student63 {
+	hardware ethernet 00:23:ae:9c:03:71;
+	fixed-address 10.42.0.207;
+}
+host student63-x1 {
+	hardware ethernet 00:23:ae:9b:d1:D0;
+	fixed-address 10.42.0.208;
+}
+host student63-x2 {
+	hardware ethernet 00:23:ae:9b:d1:D1;
+	fixed-address 10.42.0.209;
+}
+host student64 {
+	hardware ethernet 00:23:ae:9b:fe:8c;
+	fixed-address 10.42.0.210;
+}
+host student64-x1 {
+	hardware ethernet 00:23:ae:9b:d1:D3;
+	fixed-address 10.42.0.211;
+}
+host student64-x2 {
+	hardware ethernet 00:23:ae:9b:d1:D4;
+	fixed-address 10.42.0.212;
+}
+host student65 {
+	hardware ethernet 00:23:ae:9b:da:da;
+	fixed-address 10.42.0.213;
+}
+host student65-x1 {
+	hardware ethernet 00:23:ae:9b:d1:D6;
+	fixed-address 10.42.0.214;
+}
+host student65-x2 {
+	hardware ethernet 00:23:ae:9b:d1:D7;
+	fixed-address 10.42.0.215;
+}
+host student66 {
+	hardware ethernet 00:23:ae:9b:db:93;
+	fixed-address 10.42.0.216;
+}
+host student66-x1 {
+	hardware ethernet 00:23:ae:9b:d1:D9;
+	fixed-address 10.42.0.217;
+}
+host student66-x2 {
+	hardware ethernet 00:23:ae:9b:d1:DA;
+	fixed-address 10.42.0.218;
+}
+host student67 {
+	hardware ethernet 00:23:ae:9b:d1:37;
+	fixed-address 10.42.0.219;
+}
+host student67-x1 {
+	hardware ethernet 00:23:ae:9b:d1:DC;
+	fixed-address 10.42.0.220;
+}
+host student67-x2 {
+	hardware ethernet 00:23:ae:9b:d1:DD;
+	fixed-address 10.42.0.221;
+}
+host student68 {
+	hardware ethernet 00:23:ae:9b:d1:02;
+	fixed-address 10.42.0.222;
+}
+host student68-x1 {
+	hardware ethernet 00:23:ae:9b:d1:DF;
+	fixed-address 10.42.0.223;
+}
+host student68-x2 {
+	hardware ethernet 00:23:ae:9b:d1:E0;
+	fixed-address 10.42.0.224;
+}
+host student69 {
+	hardware ethernet 00:23:ae:9b:ff:d3;
+	fixed-address 10.42.0.225;
+}
+host student69-x1 {
+	hardware ethernet 00:23:ae:9b:d1:E2;
+	fixed-address 10.42.0.226;
+}
+host student69-x2 {
+	hardware ethernet 00:23:ae:9b:d1:E3;
+	fixed-address 10.42.0.227;
+}
+host student70 {
+	hardware ethernet 00:1a:6b:63:fa:dc;
+	fixed-address 10.42.0.228;
+}
+host student70-x1 {
+	hardware ethernet 00:23:ae:9b:d1:E5;
+	fixed-address 10.42.0.229;
+}
+host student70-x2 {
+	hardware ethernet 00:23:ae:9b:d1:E6;
+	fixed-address 10.42.0.230;
+}
+host student71 {
+	hardware ethernet 00:1a:6b:63:f8:c8;
+	fixed-address 10.42.0.231;
+}
+host student71-x1 {
+	hardware ethernet 00:23:ae:9b:d1:E8;
+	fixed-address 10.42.0.232;
+}
+host student71-x2 {
+	hardware ethernet 00:23:ae:9b:d1:E9;
+	fixed-address 10.42.0.233;
+}
+host student72 {
+	hardware ethernet 00:1a:6b:63:f8:c8;
+	fixed-address 10.42.0.234;
+}
+host student72-x1 {
+	hardware ethernet 00:23:ae:9b:d1:EB;
+	fixed-address 10.42.0.235;
+}
+host student72-x2 {
+	hardware ethernet 00:23:ae:9b:d1:EC;
+	fixed-address 10.42.0.236;
+}
+host student73 {
+	hardware ethernet 00:1e:37:27:21:54;
+	fixed-address 10.42.0.237;
+}
+host student73-x1 {
+	hardware ethernet 00:23:ae:9b:d1:EE;
+	fixed-address 10.42.0.238;
+}
+host student73-x2 {
+	hardware ethernet 00:23:ae:9b:d1:EF;
+	fixed-address 10.42.0.239;
+}
+host student74 {
+	hardware ethernet 00:1a:6b:63:fe:58;
+	fixed-address 10.42.0.240;
+}
+host student74-x1 {
+	hardware ethernet 00:23:ae:9b:d1:F1;
+	fixed-address 10.42.0.241;
+}
+host student74-x2 {
+	hardware ethernet 00:23:ae:9b:d1:F2;
+	fixed-address 10.42.0.242;
+}
+host student75 {
+	hardware ethernet 00:23:ae:9c:04:37;
+	fixed-address 10.42.0.243;
+}
+host student75-x1 {
+	hardware ethernet 00:23:ae:9b:d1:F4;
+	fixed-address 10.42.0.244;
+}
+host student75-x2 {
+	hardware ethernet 00:23:ae:9b:d1:F5;
+	fixed-address 10.42.0.245;
+}
+

@@ -37,7 +37,7 @@ sudo ln –s /usr/lib/xen-4.4 /usr/lib/xen
 
 sudo xen-create-image --hostname=studentN-x1 --mac=macAddress
 
-* Please refer to Virtual Machine Mac Address Configuration Form
+* Please refer to [Virtual Machine Mac Address List]()
 
 
 * The installing progress will take a little long time. While the installing progress, you need to enter the root password

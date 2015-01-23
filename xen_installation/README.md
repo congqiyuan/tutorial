@@ -1,8 +1,11 @@
 # XEN Installation
 
-Each student needs to install 2 virtual machines on your assigned physical machine.
+###Goal
+Two virtual machines host on one physical machine
 
 <br/>
+<br/>
+
 
 
 ####Architecture
