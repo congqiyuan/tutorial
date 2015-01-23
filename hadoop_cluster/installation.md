@@ -16,7 +16,7 @@ sudo chown -R hduser:hadoop /opt
 
 sudo nano -w /etc/hosts
 
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/3.png)
+
 
 
 
