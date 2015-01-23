@@ -1,5 +1,9 @@
 # MPICH Cluster
 
-A small example for parallel computing.
+###Goal
 
-Three students consist a group.
+
+<br/>
+
+###Architecture
+

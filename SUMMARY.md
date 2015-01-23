@@ -13,5 +13,8 @@
    * [Installation](ganglia_cluster/installation.md)
    * [Reference](ganglia_cluster/reference.md)
 * [MPICH Cluster](mpich_cluster/README.md)
+   * [Introduction](mpich_cluster/introduction.md)
+   * [NFS & SSH](mpich_cluster/nfs_&_ssh)
+   * [Installation & Execution](mpich_cluster/installation_&_execution)
 * [Hadoop Cluster](hadoop_cluster/README.md)
 
