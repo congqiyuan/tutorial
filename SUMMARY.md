@@ -11,7 +11,7 @@
 * [Ganglia Cluster](ganglia_cluster/README.md)
    * [Introduction](ganglia_cluster/introduction.md)
    * [Installation](ganglia_cluster/installation.md)
-   * [Reference](ganglia_cluster/reference)
+   * [Reference](ganglia_cluster/reference.md)
 * [MPICH Cluster](mpich_cluster/README.md)
 * [Hadoop Cluster](hadoop_cluster/README.md)
 
