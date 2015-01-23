@@ -20,6 +20,6 @@
 * [Hadoop Cluster](hadoop_cluster/README.md)
    * [Introduction](hadoop_cluster/introduction.md)
    * [Installation](hadoop_cluster/installation.md)
-   * [Testing](hadoop_cluster/testing)
-   * [Reference](hadoop_cluster/reference)
+   * [Testing](hadoop_cluster/testing.md)
+   * [Reference](hadoop_cluster/reference.md)
 
