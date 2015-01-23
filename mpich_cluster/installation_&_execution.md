@@ -34,21 +34,42 @@ sudo make install
 
 nano -w .bashrc
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/14.png)
+
 
 source .bashrc
 
 sudo nano -w /etc/environment
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/15.png)
+
+<br/>
+<br/>
+<br/>
+
 **Running a minimal MPI Program**
+
 cd /mirror
 
-nano machinelist
+nano -w machinelist
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/16.png)
 
 nano -w mpi_hello.c
+
+
 
 mpicc mpi_hello.c -o mpi_hello
 
 mpiexec -n 6 -f machinelist /mirror/mpi_hello
+
+
+
+
+<br/>
+<br/>
+<br/>
+
 
 **Running a better MPI Program (C)**
 
