@@ -125,13 +125,13 @@ touch masters
 
 nano -w masters
 
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/11.png)
+
 
 <br/>
 
 nano -w slaves
 
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/12.png)
+
 
 <br/>
 
@@ -157,7 +157,7 @@ sudo chown -R hduser:hadoop /var/hadoop
 
 sudo nano -w /etc/profile
 
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/13.png)
+
 
 source /etc/profile
 
