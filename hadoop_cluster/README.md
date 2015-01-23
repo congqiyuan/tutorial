@@ -1,4 +1,12 @@
 # Hadoop Cluster
 
-Three students consist a group.
+###Goal
+
+
+
+<br/>
+
+###Architecture
+
+
 
