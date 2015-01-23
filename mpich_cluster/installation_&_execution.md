@@ -36,6 +36,7 @@ nano -w .bashrc
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/14.png)
 
+<br/>
 
 source .bashrc
 
@@ -55,15 +56,19 @@ nano -w machinelist
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/16.png)
 
+<br/>
+
 nano -w mpi_hello.c
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/17.png)
 
+<br/>
 
 mpicc mpi_hello.c -o mpi_hello
 
 mpiexec -n 6 -f machinelist /mirror/mpi_hello
 
-
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/18.png)
 
 
 <br/>
@@ -77,13 +82,20 @@ cd /mirror
 
 nano -w mpi_world.c
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/19.png)
+
 * MPI provides functions:
 * **MPI_Comm_size** reports the number of processes.
 * **MPI_Comm_rank** reports the rank, a number between 0 and size-1, identifying the calling process
 
-
+<br/>
 
 mpicc mpi_world.c -o mpi_world
 
 mpiexec -n 6 -f machinelist /mirror/mpi_world
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/20.png)
+
+<br/>
+
 
