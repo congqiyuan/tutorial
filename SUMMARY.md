@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Linux Commands](linux_commands/README.md)
-* [Linux Editors](linux_editors/README.md)
 * [XEN Installation](xen_installation/README.md)
    * [Installing XEN](xen_installation/installing_xen.md)
    * [Network Configuration](xen_installation/network_configuration.md)

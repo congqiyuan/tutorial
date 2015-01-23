@@ -15,7 +15,9 @@ start-all.sh
 
 jps
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/14.png)
 
+<br/>
 
 **On the slave nodes:**
 
@@ -23,6 +25,19 @@ su hduser
 
 jps
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/15.png)
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/16.png)
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/17.png)
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/18.png)
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/19.png)
+
+<br/>
+<br/>
+<br/>
 
 ### Test Mapreduce with an examplar :
 
@@ -34,7 +49,9 @@ touch helloworld.txt
 
 nano -w helloworld.txt
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/20.png)
 
+<br/>
 hadoop fs -mkdir /input
 
 hadoop fs -put helloworld.txt /input
@@ -46,9 +63,16 @@ wordcount /input /output
 
 hadoop fs -ls /output
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/21.png)
+
+<br/>
 hadoop fs -text /output/part-r-00000
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/22.png)
 
+<br/>
+<br/>
+<br/>
 
 ### Compile your own program:
 
@@ -58,7 +82,7 @@ mkdir wordcount
 
 scp student@10.42.0.1:/home/coc-server/hadoop/WordCount.java .
 
-( Don’t leave the last point out )
+* Don’t leave the last point out
 
 cd worccount
 
@@ -77,5 +101,11 @@ hadoop jar wordcount.jar org.myorg.WordCount /input /output1
 
 hadoop fs -ls /output1
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/23.png)
 
+<br/>
 hadoop fs -text /output1/part-00000
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/24.png)
+
+<br/>
