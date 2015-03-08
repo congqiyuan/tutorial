@@ -32,7 +32,7 @@ sudo make install
 
 <br/>
 
-nano -w .bashrc
+vim .bashrc
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/14.png)
 
@@ -40,7 +40,7 @@ nano -w .bashrc
 
 source .bashrc
 
-sudo nano -w /etc/environment
+sudo vim /etc/environment
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/15.png)
 
@@ -52,13 +52,13 @@ sudo nano -w /etc/environment
 
 cd /mirror
 
-nano -w machinelist
+vim machinelist
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/16.png)
 
 <br/>
 
-nano -w mpi_hello.c
+vim mpi_hello.c
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/17.png)
 
@@ -80,7 +80,7 @@ mpiexec -n 6 -f machinelist /mirror/mpi_hello
 
 cd /mirror
 
-nano -w mpi_world.c
+vim mpi_world.c
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/19.png)
 

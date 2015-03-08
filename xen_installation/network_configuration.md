@@ -21,7 +21,7 @@ Next we need to setup our system so that we can attach virtual machines to the e
 
 sudo apt-get install bridge-utils
 
-sudo nano -w /etc/network/interfaces
+sudo vim /etc/network/interfaces
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/7.png)
 

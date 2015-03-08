@@ -13,7 +13,7 @@ sudo mkdir /mirror
 
 sudo chown student:student /mirror
 
-sudo nano –w /etc/exports
+sudo vim /etc/exports
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/3.png)
 
 <br/>
@@ -31,7 +31,7 @@ sudo chown student:student /mirror
 
 sudo mount studentN2:/mirror /mirror
 
-sudo nano –w /etc/fstab
+sudo vim /etc/fstab
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/4.png)
 
@@ -48,7 +48,7 @@ sudo nano –w /etc/fstab
 
 **On studentN2:**
 
-sudo nano -w /etc/hosts
+sudo vim /etc/hosts
 
 * Add the ip and hostname of your virtual machines into /etc/hosts
 

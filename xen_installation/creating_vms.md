@@ -10,7 +10,7 @@ Ubuntu contains a number of tools for creating Xen Project guests. The easiest o
 
 sudo apt-get install xen-tools
 
-sudo nano –w /etc/xen-tools/xen-tools.conf
+sudo vim /etc/xen-tools/xen-tools.conf
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/10.png)
 
@@ -67,7 +67,7 @@ adduser student
 <br/>
 
 
-sudo nano -w /etc/sudoers
+sudo vim /etc/sudoers
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/17.png)
 

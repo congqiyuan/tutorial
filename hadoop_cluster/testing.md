@@ -47,7 +47,7 @@ cd /opt
 
 touch helloworld.txt
 
-nano -w helloworld.txt
+vim helloworld.txt
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/20.png)
 

@@ -14,14 +14,14 @@ sudo adduser --ingroup hadoop hduser
 
 <br/>
 
-sudo nano -w /etc/sudoers
+sudo vim /etc/sudoers
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/4.png)
 
 
 sudo chown -R hduser:hadoop /opt
 
-sudo nano -w /etc/hosts
+sudo vim /etc/hosts
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/5.png)
 
@@ -43,7 +43,7 @@ sudo apt-get update
 
 sudo apt-get install oracle-java7-installer -y
 
-sudo nano -w /etc/profile
+sudo vim /etc/profile
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/6.png)
 
@@ -95,19 +95,19 @@ scp -r ~/.ssh hduser@student3-x2:~/
 
 cd /opt/hadoop-2.6.0/etc/hadoop/
 
-nano -w hadoop-env.sh
+vim hadoop-env.sh
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/7.png)
 
 <br/>
 
-nano -w core-site.xml
+vim core-site.xml
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/8.png)
 
 <br/>
 
-nano -w hdfs-site.xml
+vim hdfs-site.xml
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/9.png)
 
@@ -115,7 +115,7 @@ nano -w hdfs-site.xml
 
 cp mapred-site.xml.template mapred-site.xml
 
-nano -w mapred-site.xml
+vim mapred-site.xml
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/10.png)
 
@@ -123,13 +123,13 @@ nano -w mapred-site.xml
 
 touch masters
 
-nano -w masters
+vim masters
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/11.png)
 
 <br/>
 
-nano -w slaves
+vim slaves
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/12.png)
 
@@ -155,7 +155,7 @@ sudo mkdir /var/hadoop
 
 sudo chown -R hduser:hadoop /var/hadoop
 
-sudo nano -w /etc/profile
+sudo vim /etc/profile
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/13.png)
 

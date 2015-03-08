@@ -18,13 +18,13 @@ sudo cp apache.conf /etc/apache2/sites-enabled/ganglia.conf
 
 <br/>
 
-sudo nano -w /etc/ganglia/gmetad.conf
+sudo vim /etc/ganglia/gmetad.conf
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/ganglia_cluster/8.png)
 
 <br/>
 
-sudo nano -w /etc/ganglia/gmod.conf
+sudo vim /etc/ganglia/gmod.conf
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/ganglia_cluster/9.png)
 
@@ -37,7 +37,7 @@ sudo nano -w /etc/ganglia/gmod.conf
 
 sudo apt-get install ganglia-monitor
 
-sudo nano -w /etc/ganglia/gmond.conf
+sudo vim /etc/ganglia/gmond.conf
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/ganglia_cluster/11.png)
 

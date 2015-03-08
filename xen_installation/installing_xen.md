@@ -52,7 +52,7 @@ sudo xl info
 
 
 
-sudo nano -w /etc/xen/xend-config.sxp
+sudo vim /etc/xen/xend-config.sxp
 
 * “xend-unix-server” is an option that tells xend whether or not to start the unix domain socket management server. This is required for the CLI tools to operate. Defaults to yes.
 
