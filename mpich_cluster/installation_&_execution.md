@@ -58,11 +58,8 @@ vim machinelist
 
 <br/>
 
-vim mpi_hello.c
-
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/17.png)
-
-<br/>
+scp student@10.42.0.1:/home/coc-server/ganglia/mpi/mpi_hello.c .
+( Don’t ignore the last “.” )
 
 mpicc mpi_hello.c -o mpi_hello
 
@@ -80,15 +77,8 @@ mpiexec -n 6 -f machinelist /mirror/mpi_hello
 
 cd /mirror
 
-vim mpi_world.c
-
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/19.png)
-
-* MPI provides functions:
-* **MPI_Comm_size** reports the number of processes.
-* **MPI_Comm_rank** reports the rank, a number between 0 and size-1, identifying the calling process
-
-<br/>
+scp student@10.42.0.1:/home/coc-server/ganglia/mpi/mpi_world.c .
+( Don’t ignore the last “.” )
 
 mpicc mpi_world.c -o mpi_world
 
