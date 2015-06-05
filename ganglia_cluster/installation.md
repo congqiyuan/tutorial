@@ -13,6 +13,15 @@ sudo apt-get install ganglia-monitor rrdtool gmetad ganglia-webfrontend
 
 <br/>
 
+ifconfig
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/ganglia_cluster/ip.png)
+
+<br/>
+
+sudo vim /etc/hosts
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/ganglia_cluster/host.png)
+
+<br/>
 cd /etc/ganglia-webfrontend
 
 sudo cp apache.conf /etc/apache2/sites-enabled/ganglia.conf
@@ -22,6 +31,7 @@ sudo cp apache.conf /etc/apache2/sites-enabled/ganglia.conf
 sudo vim /etc/ganglia/gmetad.conf
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/ganglia_cluster/8.png)
+
 
 <br/>
 
