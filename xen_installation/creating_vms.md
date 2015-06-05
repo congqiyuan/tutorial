@@ -68,6 +68,7 @@ adduser student
 
 <br/>
 
+sudo apt-get install vim
 
 sudo vim /etc/sudoers
 
