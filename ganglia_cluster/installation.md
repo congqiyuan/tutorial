@@ -22,6 +22,9 @@ sudo vim /etc/hosts
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/ganglia_cluster/host.png)
 
 <br/>
+
+sudo /etc/init.d/apache2 restart
+
 cd /etc/ganglia-webfrontend
 
 sudo cp apache.conf /etc/apache2/sites-enabled/ganglia.conf
