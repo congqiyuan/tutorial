@@ -58,7 +58,7 @@ vim machinelist
 
 <br/>
 
-scp student@10.42.0.1:/home/coc-server/ganglia/mpi/mpi_hello.c .
+scp student@10.42.0.1:/home/coc-server/ganglia/mpi/[mpi_hello.c](https://raw.githubusercontent.com/congqiyuan/tutorial/master/ganglia_cluster/mpi_hello.c) .
 ( Don’t ignore the last “.” )
 
 mpicc mpi_hello.c -o mpi_hello
@@ -77,7 +77,7 @@ mpiexec -n 6 -f machinelist /mirror/mpi_hello
 
 cd /mirror
 
-scp student@10.42.0.1:/home/coc-server/ganglia/mpi/mpi_world.c .
+scp student@10.42.0.1:/home/coc-server/ganglia/mpi/[mpi_world.c](https://raw.githubusercontent.com/congqiyuan/tutorial/master/ganglia_cluster/mpi_world.c) .
 ( Don’t ignore the last “.” )
 
 mpicc mpi_world.c -o mpi_world
