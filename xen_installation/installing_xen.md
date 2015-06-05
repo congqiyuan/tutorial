@@ -18,14 +18,6 @@ sudo apt-get update
 
 sudo apt-get upgrade
 
-ifconfig
-
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/2.png)
-
-sudo vim /etc/hosts
-
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/host.png)
-
 <br/>
 <br/>
 
