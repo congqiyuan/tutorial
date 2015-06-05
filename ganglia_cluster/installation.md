@@ -4,13 +4,14 @@
 
 sudo apt-get install apache2 php5 php5-json
 
+sudo apt-get install ganglia-monitor rrdtool gmetad ganglia-webfrontend
+
 * While the installing, you need to confirm to restart apache
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/ganglia_cluster/7.png)
 
-<br/>
 
-sudo apt-get install ganglia-monitor rrdtool gmetad ganglia-webfrontend
+<br/>
 
 cd /etc/ganglia-webfrontend
 
