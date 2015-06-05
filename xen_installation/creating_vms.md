@@ -33,6 +33,8 @@ sudo mkdir /home/xen
 
 sudo chmod 777 /home/xen
 
+sudo mkdir /usr/lib/xen
+
 sudo ln -s /usr/lib/xen-4.4 /usr/lib/xen
 
 sudo xen-create-image --hostname=studentN-x1 --mac=macAddress
