@@ -38,7 +38,7 @@ sudo vim /etc/ganglia/gmetad.conf
 
 <br/>
 
-sudo vim /etc/ganglia/gmod.conf
+sudo vim /etc/ganglia/gmond.conf
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/ganglia_cluster/9.png)
 
