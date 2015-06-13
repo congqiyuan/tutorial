@@ -2,9 +2,9 @@
 
 ### **Installation on studentN1:**
 
-sudo apt-get install apache2 php5 php5-json
+sudo apt-get install apache2 php5 php5-json -y
 
-sudo apt-get install ganglia-monitor rrdtool gmetad ganglia-webfrontend
+sudo apt-get install ganglia-monitor rrdtool gmetad ganglia-webfrontend -y
 
 * While the installing, you need to confirm to restart apache
 
@@ -49,7 +49,7 @@ sudo vim /etc/ganglia/gmond.conf
 
 ### **Installation on: studentN1-x1, studentN1-x2, studentN2-x1, studentN2-x2, studentN3-x1, studentN3-x2**
 
-sudo apt-get install ganglia-monitor
+sudo apt-get install ganglia-monitor -y
 
 sudo vim /etc/ganglia/gmond.conf
 

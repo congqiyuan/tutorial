@@ -8,7 +8,7 @@ Ubuntu contains a number of tools for creating Xen Project guests. The easiest o
 <br/>
 
 
-sudo apt-get install xen-tools
+sudo apt-get install xen-tools -y
 
 sudo vim /etc/xen-tools/xen-tools.conf
 
@@ -68,7 +68,7 @@ adduser student
 
 <br/>
 
-sudo apt-get install vim
+sudo apt-get install vim -y
 
 sudo vim /etc/sudoers
 

@@ -19,7 +19,7 @@ Next we need to setup our system so that we can attach virtual machines to the e
 
 <br/>
 
-sudo apt-get install bridge-utils
+sudo apt-get install bridge-utils -y
 
 sudo vim /etc/network/interfaces
 

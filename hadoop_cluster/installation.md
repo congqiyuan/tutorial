@@ -10,13 +10,9 @@ sudo addgroup hadoop
 
 sudo adduser --ingroup hadoop hduser
 
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/3.png)
 
-<br/>
 
-sudo vim /etc/sudoers
 
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/4.png)
 
 
 sudo chown -R hduser:hadoop /opt

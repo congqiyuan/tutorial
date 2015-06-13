@@ -24,7 +24,7 @@ sudo apt-get upgrade
 
 ###Install the hypervisor
 
-sudo apt-get install xen-hypervisor-amd64
+sudo apt-get install xen-hypervisor-amd64 -y
 
 sudo reboot
 

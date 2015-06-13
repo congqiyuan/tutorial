@@ -2,7 +2,7 @@
 
 **On studentN2:**
 
-sudo apt-get install build-essential autoconf automake gfortran
+sudo apt-get install build-essential autoconf automake gfortran -y
 
 cd /mirror
 

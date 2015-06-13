@@ -7,7 +7,7 @@ NFS (Network File System) allows a system to share directories and files with ot
 
 **On studentN2:**
 
-sudo apt-get install nfs-server
+sudo apt-get install nfs-server -y
 
 sudo mkdir /mirror
 
@@ -23,7 +23,7 @@ sudo /etc/init.d/nfs-kernel-server start
 
 **On all the virtual machines:**
 
-sudo apt-get install nfs-client
+sudo apt-get install nfs-client -y
 
 sudo mkdir /mirror
 
