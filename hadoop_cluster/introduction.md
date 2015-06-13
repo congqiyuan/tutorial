@@ -2,6 +2,10 @@
 
 ### Installing Oracle Java 8
 
+sudo apt-get update
+
+sudo apt-get upgrade
+
 sudo apt-get install python-software-properties -y
 
 sudo apt-get install software-properties-common -y
@@ -54,7 +58,6 @@ cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/known_hosts
 sudo apt-get install rsync
 
 
-
 <br/>
 <br/>
 
@@ -64,6 +67,7 @@ sudo apt-get install rsync
 
 sudo vim /etc/sysctl.conf
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/2.png)
 
 
 <br/>
@@ -72,6 +76,12 @@ sudo vim /etc/sysctl.conf
 ### Edit hosts
 sudo vim /etc/hosts
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/3.png)
 
+<br/>
+
+* To make above changes reflected, we need to reboot all of the Nodes.
+
+sudo reboot
 
 

@@ -1,99 +1,35 @@
 # Installation
 
-### Configuration on All the 6 Nodes
+### Download hadoop-2.6.0 (Master Node)
 
-sudo apt-get update
-
-sudo apt-get upgrade
-
-sudo addgroup hadoop
-
-sudo adduser --ingroup hadoop hduser
-
-
-
-
-
-
-sudo chown -R hduser:hadoop /opt
-
-sudo vim /etc/hosts
-
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/5.png)
-
-<br/>
-<br/>
-
-
-**JDK Installation:**
 
 su hduser
 
-sudo apt-get install python-software-properties -y
-
-sudo apt-get install software-properties-common -y
-
-sudo add-apt-repository ppa:webupd8team/java -y
-
-sudo apt-get update
-
-sudo apt-get install oracle-java7-installer -y
-
-sudo vim /etc/profile
-
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/6.png)
-
-source /etc/profile
-
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-### Configuration on Master Node ( studentN3-x1 )
-
-su hduser
+sudo chown hduser:hadoop -R /opt
 
 cd /opt
 
 scp student@10.42.0.1:/home/coc-server/hadoop/hadoop-2.6.0.tar.gz .
 
-* Don’t leave the last point out
-
-tar xvf hadoop-2.6.0.tar.gz
+tar -xzvf hadoop-2.6.0.tar.gz
 
 cd /opt/hadoop-2.6.0/lib
 
-scp -r student@10.42.0.1:/home/coc-server/hadoop/native .
+scp -r student@10.42.0.1:/home/coc-server/hadoop/native/* .
 
-* Don’t leave the last point out
-
-* Notice: Hadoop has native implementations of certain components for performance reasons and for non-availability of Java implementations. These components are available in a single, dynamically-linked native library called the native hadoop library. The pre-built 32-bit i386-Linux native hadoop library is available as part of the hadoop distribution and is located in the lib/native directory. But there are no pre-buit 64-bit native hadoop library. So I compiled the library for you.
+* Note: Hadoop has native implementations of certain components for performance reasons and for non-availability of Java implementations. These components are available in a single, dynamically-linked native library called the native hadoop library. The pre-built 32-bit i386-Linux native hadoop library is available as part of the hadoop distribution and is located in the lib/native directory. But there are no pre-buit 64-bit native hadoop library. So I compiled the library for you.
 
 <br/>
+<br/>
 
-**SSH Without Password**
 
-ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
 
-cp ~/.ssh/id_rsa.pub ~/.ssh/authorized_keys
+### Update Hadoop configuration files (Master Node)
 
-scp -r ~/.ssh hduser@student1-x1:~/
+sudo vim /etc/profile
+* Edit this file for All Nodes
 
-scp -r ~/.ssh hduser@student1-x2:~/
-
-scp -r ~/.ssh hduser@student2-x1:~/
-
-scp -r ~/.ssh hduser@student2-x2:~/
-
-scp -r ~/.ssh hduser@student3-x2:~/
-
-cd /opt/hadoop-2.6.0/etc/hadoop/
-
-vim hadoop-env.sh
-
-![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/7.png)
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/4.png)
 
 <br/>
 

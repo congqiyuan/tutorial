@@ -16,7 +16,7 @@
    * [Installation & Execution](mpich_cluster/installation_&_execution.md)
    * [Reference](mpich_cluster/reference.md)
 * [Hadoop Cluster](hadoop_cluster/README.md)
-   * [Introduction](hadoop_cluster/introduction.md)
+   * [Prerequisites](hadoop_cluster/introduction.md)
    * [Installation](hadoop_cluster/installation.md)
    * [Testing](hadoop_cluster/testing.md)
    * [Reference](hadoop_cluster/reference.md)
