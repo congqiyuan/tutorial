@@ -27,11 +27,20 @@ scp -r student@10.42.0.1:/home/coc-server/hadoop/native/* .
 ### Update Hadoop configuration files (Master Node)
 
 sudo vim /etc/profile
+
 * Edit this file for All Nodes
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/4.png)
 
 <br/>
+
+source /etc/profile
+
+cd /opt/hadoop-2.6.0/etc/hadoop/
+
+vim hadoop-env.sh
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/5.png)
 
 vim core-site.xml
 
