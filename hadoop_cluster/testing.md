@@ -52,7 +52,7 @@ hadoop fs -text /output1/part-00000
 <br/>
 <br/>
 
-### TeraSrot
+### TeraSort
 
 To run the terasort benchmark, three separate steps are required. In general the rows are 100 bytes long, thus the total amount of data written is 100 times the number of rows (i.e. to write 500 MB of data, use 5000000 rows). You will also need to specify input and output directories in HDFS.
 
