@@ -44,10 +44,13 @@ vim hadoop-env.sh
 
 vim core-site.xml
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/6.png)
 
 <br/>
 
 vim hdfs-site.xml
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/7.png)
 
 
 <br/>
