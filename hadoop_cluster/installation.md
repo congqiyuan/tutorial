@@ -42,11 +42,15 @@ vim hadoop-env.sh
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/5.png)
 
+<br/>
+
+
 vim core-site.xml
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/6.png)
 
 <br/>
+
 
 vim hdfs-site.xml
 
@@ -57,6 +61,10 @@ vim hdfs-site.xml
 
 vim yarn-site.xml
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/8.png)
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/9.png)
+
 <br/>
 
 
@@ -64,23 +72,30 @@ cp mapred-site.xml.template mapred-site.xml
 
 vim mapred-site.xml
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/10.png)
 
 <br/>
 
 
 vim masters
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/11.png)
 
 <br/>
 
+
 vim slaves
 
-
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/12.png)
 
 <br/>
 
 sudo mkdir -p /var/hadoop/hdfs/namenode
+
 sudo chown hduser:hadoop -R /var/hadoop
+
+<br/>
+
 
 **Applying specific configuration for Slave Nodes : **
 
@@ -91,6 +106,8 @@ sudo chown hduser:hadoop -R /var/hadoop/
 sudo mkdir /opt/hadoop-2.6.0
 
 sudo chown hduser:hadoop -R /opt/hadoop-2.6.0
+
+<br/>
 
 
 **Copying ssh key for Setting up passwordless ssh access from Master to Slave node :  (On Master Node)**
@@ -108,6 +125,10 @@ ssh-copy-id -i $HOME/.ssh/id_rsa.pub hduser@studentN2-x2
 ssh-copy-id -i $HOME/.ssh/id_rsa.pub hduser@studentN2-x2
 
 
+<br/>
+<br/>
+
+
 sudo rsync -avxP /opt/hadoop-2.6.0/ hduser@studentN1-x1:/opt/hadoop-2.6.0
 
 sudo rsync -avxP /opt/hadoop-2.6.0/ hduser@studentN1-x2:/opt/hadoop-2.6.0
@@ -120,10 +141,16 @@ sudo rsync -avxP /opt/hadoop-2.6.0/ hduser@studentN3-x2:/opt/hadoop-2.6.0
 
 * The above command will share the files stored within hadoop folder to Slave nodes with location – /opt/hadoop-2.6.0. So, you don’t need to again download as well as setup the above configuration in rest of all nodes. You just need Java and rsync to be installed over all nodes.
 
+<br/>
+<br/>
+
 ### Fromat Namenode (MasterNode)
 source /etc/profile
 
 hdfs namenode -format
+
+<br/>
+<br/>
 
 ### Start all hadooop daemons(MasterNode)
 start-dfs.sh
@@ -139,19 +166,40 @@ mr-jobhistory-daemon.sh start historyserver
 ### Track/Monitor/Verify (All Noes)
 jps
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/13.png)
 
-Connect to you CSVPN first!
+<br/>
+
+**Connect to you CSVPN first!**
+
 ssh student@202.45.128.135
 ssh -Nf -L 202.45.128.135:<100xx>:localhost:8088 student@studentN3-x1
+
 ssh -Nf -L 202.45.128.135:<100xx>:localhost:50070 student@studentN3-x1
+
 ssh -Nf -L 202.45.128.135:<100xx>:localhost:19888 student@studentN3-x1
 
+<br/>
 
 For ResourceManager:
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/14.png)
+
+<br/>
+
 For NameNode:
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/15.png)
+
+<br/>
+
 For JobHistoryServer:
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/16.png)
+
+<br/>
+<br/>
+
 
 ### Stop the Cluster (Not now)
 stop-yarn.sh
