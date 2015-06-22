@@ -18,6 +18,8 @@ hadoop jar hadoop-mapreduce-examples-2.6.0.jar wordcount /input /output
 
 hadoop fs -ls /output
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/17.png)
+
 hadoop fs -text /output/part-r-00000
 
 <br/>
@@ -43,8 +45,12 @@ hadoop jar wordcount.jar org.myorg.WordCount /input /output1
 
 hadoop fs -ls /output1
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/18.png)
+
 hadoop fs -text /output1/part-00000
 
+<br/>
+<br/>
 
 ### TeraSrot
 
@@ -77,7 +83,12 @@ yarn jar hadoop-mapreduce-examples-2.6.0.jar terasort -Dmapreduce.job.maps=5 -Dm
 
 yarn jar hadoop-mapreduce-examples-2.6.0.jar teravalidate /teraoutput /teravalidate
 
+<br/>
 
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/19.png)
 
+<br/>
+
+![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/20.png)
 
 
