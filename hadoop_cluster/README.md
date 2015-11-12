@@ -5,7 +5,6 @@
 * One master node and five slave nodes.
 
 
-######
 
 <br/>
 <br/>
