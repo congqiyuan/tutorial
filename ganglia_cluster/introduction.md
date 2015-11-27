@@ -1,4 +1,4 @@
-# Introduction
+# 2.1 Introduction
 
 Ganglia is a scalable distributed monitoring system for high-performance computing systems such as clusters and Grids. It is composed of three components: gmond, gmetad, and gweb.
 

@@ -1,4 +1,4 @@
-# Reference
+# 2.3 Reference
 
 [Monitoring with Ganglia](http://shop.oreilly.com/product/0636920025573.do)
 

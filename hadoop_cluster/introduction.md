@@ -1,4 +1,4 @@
-# Prerequisites (All the 6 Nodes)
+# 4.1 Prerequisites (All the 6 Nodes)
 
 ### Installing Oracle Java 8
 

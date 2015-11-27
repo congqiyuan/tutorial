@@ -1,4 +1,4 @@
-# MPICH Cluster
+# 3 MPICH Cluster
 
 ###Goal
 Execute a task on six virtual machines parallelly

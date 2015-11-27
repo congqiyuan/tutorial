@@ -1,4 +1,4 @@
-# Installation
+# 4.2 Installation
 
 ### Download hadoop-2.6.0 (Master Node)
 

@@ -1,4 +1,4 @@
-# Installation
+# 2.2 Installation
 
 ### **Installation on studentN1:**
 

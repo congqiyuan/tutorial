@@ -1,4 +1,4 @@
-# XEN Installation
+# 1 XEN Installation
 
 ###Goal
 Two virtual machines hosted on one physical machine

@@ -1,4 +1,4 @@
-# Hadoop Cluster
+# 4 Hadoop Cluster
 
 ###Goal
 * Setup a hadoop cluster on the six virtual machines.

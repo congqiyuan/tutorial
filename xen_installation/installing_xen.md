@@ -1,4 +1,4 @@
-# Installing XEN
+# 1.1 Installing XEN
 
 ### Remote connection to your student machine
 
