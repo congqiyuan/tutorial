@@ -1,13 +1,10 @@
-# 1 XEN Installation
+# XEN Installation
 
-###Goal
+## Goal
+
 Two virtual machines hosted on one physical machine
 
-<br/>
-<br/>
-
-
-
-####Architecture
+### Architecture
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/xen_installation/1.png)
+

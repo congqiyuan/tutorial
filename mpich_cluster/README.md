@@ -1,12 +1,10 @@
-# 3 MPICH Cluster
+# MPICH Cluster
 
-###Goal
+## Goal
+
 Execute a task on six virtual machines parallelly
 
-
-<br/>
-<br/>
-
-###Architecture
+## Architecture
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/1.png)
+
