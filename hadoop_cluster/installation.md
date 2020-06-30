@@ -136,15 +136,21 @@ ssh -Nf -L 202.45.128.135::localhost:50070 student@studentN3-x1
 
 ssh -Nf -L 202.45.128.135::localhost:19888 student@studentN3-x1
 
-For ResourceManager:
+
+
+**For Resource Manager:**
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/14.png)
 
-For NameNode:
+
+
+**For Name Node:**
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/15.png)
 
-For JobHistoryServer:
+
+
+**For Job History Server:**
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/hadoop_cluster/16.png)
 

@@ -54,9 +54,13 @@ sudo /etc/init.d/gmetad start
 
 sudo /etc/init.d/apache2 restart
 
+
+
 **On studentN1-x1, studentN1-x2, studentN2-x1, studentN2-x2, studentN3-x1, studentN3-x2:**
 
 sudo /etc/init.d/ganglia-monitor start
+
+
 
 **On studentN1:**
 

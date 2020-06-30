@@ -4,6 +4,8 @@
 
 NFS \(Network File System\) allows a system to share directories and files with others over a network. By using NFS, users and programs can access files on remote systems almost as if they were local files.
 
+
+
 **On studentN2:**
 
 sudo apt-get install nfs-server -y
@@ -58,6 +60,8 @@ ssh-keygen -t rsa
 sudo ssh-copy-id student@**hostname**
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/7.png)
+
+\*\*\*\*
 
 **Test connection from studentN2:**
 

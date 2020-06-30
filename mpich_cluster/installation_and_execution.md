@@ -36,6 +36,8 @@ sudo vim /etc/environment
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/15.png)
 
+\*\*\*\*
+
 **Running a minimal MPI Program**
 
 cd /mirror
@@ -51,6 +53,8 @@ mpicc mpi\_hello.c -o mpi\_hello
 mpiexec -n 6 -f machinelist /mirror/mpi\_hello
 
 ![](https://raw.githubusercontent.com/congqiyuan/tutorial/master/mpich_cluster/18.png)
+
+\*\*\*\*
 
 **Running a better MPI Program \(C\)**
 
